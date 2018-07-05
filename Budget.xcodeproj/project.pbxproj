@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		B8680BD620ED8C130040EC8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8680BD520ED8C130040EC8C /* AppDelegate.swift */; };
-		B8680BD820ED8C130040EC8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8680BD720ED8C130040EC8C /* ViewController.swift */; };
+		B8680BD820ED8C130040EC8C /* MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8680BD720ED8C130040EC8C /* MainTabBarVC.swift */; };
 		B8680BDB20ED8C130040EC8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8680BD920ED8C130040EC8C /* Main.storyboard */; };
 		B8680BDE20ED8C130040EC8C /* Budget.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B8680BDC20ED8C130040EC8C /* Budget.xcdatamodeld */; };
 		B8680BE020ED8C140040EC8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8680BDF20ED8C140040EC8C /* Assets.xcassets */; };
 		B8680BE320ED8C140040EC8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8680BE120ED8C140040EC8C /* LaunchScreen.storyboard */; };
 		B8680BEE20ED8C140040EC8C /* BudgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8680BED20ED8C140040EC8C /* BudgetTests.swift */; };
 		B8680BF920ED8C140040EC8C /* BudgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8680BF820ED8C140040EC8C /* BudgetUITests.swift */; };
+		B8680C0820EDA7E60040EC8C /* AddExpenseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8680C0720EDA7E60040EC8C /* AddExpenseVC.swift */; };
+		B8680C0A20EDAAE20040EC8C /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8680C0920EDAAE20040EC8C /* HomeVC.swift */; };
+		B8680C0E20EDABD20040EC8C /* ResourcesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8680C0D20EDABD20040EC8C /* ResourcesVC.swift */; };
+		B8680C1020EDABF60040EC8C /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8680C0F20EDABF60040EC8C /* HistoryVC.swift */; };
+		B8680C5920EDEB580040EC8C /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8680C5820EDEB580040EC8C /* ExpenseItem.swift */; };
+		B8680C5B20EDEB650040EC8C /* MonthlyExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8680C5A20EDEB650040EC8C /* MonthlyExpense.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +43,7 @@
 /* Begin PBXFileReference section */
 		B8680BD220ED8C130040EC8C /* Budget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Budget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8680BD520ED8C130040EC8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B8680BD720ED8C130040EC8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B8680BD720ED8C130040EC8C /* MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
 		B8680BDA20ED8C130040EC8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8680BDD20ED8C130040EC8C /* Budget.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Budget.xcdatamodel; sourceTree = "<group>"; };
 		B8680BDF20ED8C140040EC8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		B8680BF420ED8C140040EC8C /* BudgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8680BF820ED8C140040EC8C /* BudgetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetUITests.swift; sourceTree = "<group>"; };
 		B8680BFA20ED8C140040EC8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8680C0720EDA7E60040EC8C /* AddExpenseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseVC.swift; sourceTree = "<group>"; };
+		B8680C0920EDAAE20040EC8C /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		B8680C0D20EDABD20040EC8C /* ResourcesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesVC.swift; sourceTree = "<group>"; };
+		B8680C0F20EDABF60040EC8C /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		B8680C5820EDEB580040EC8C /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		B8680C5A20EDEB650040EC8C /* MonthlyExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyExpense.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +111,10 @@
 		B8680BD420ED8C130040EC8C /* Budget */ = {
 			isa = PBXGroup;
 			children = (
-				B8680BD520ED8C130040EC8C /* AppDelegate.swift */,
-				B8680BD720ED8C130040EC8C /* ViewController.swift */,
-				B8680BD920ED8C130040EC8C /* Main.storyboard */,
+				B8680C5720EDEB3F0040EC8C /* Models */,
+				B8680C0620EDA7C10040EC8C /* Controllers */,
+				B8680C5620EDEAD20040EC8C /* Views */,
 				B8680BDF20ED8C140040EC8C /* Assets.xcassets */,
-				B8680BE120ED8C140040EC8C /* LaunchScreen.storyboard */,
 				B8680BE420ED8C140040EC8C /* Info.plist */,
 				B8680BDC20ED8C130040EC8C /* Budget.xcdatamodeld */,
 			);
@@ -126,6 +137,37 @@
 				B8680BFA20ED8C140040EC8C /* Info.plist */,
 			);
 			path = BudgetUITests;
+			sourceTree = "<group>";
+		};
+		B8680C0620EDA7C10040EC8C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B8680BD720ED8C130040EC8C /* MainTabBarVC.swift */,
+				B8680C0720EDA7E60040EC8C /* AddExpenseVC.swift */,
+				B8680C0920EDAAE20040EC8C /* HomeVC.swift */,
+				B8680C0F20EDABF60040EC8C /* HistoryVC.swift */,
+				B8680C0D20EDABD20040EC8C /* ResourcesVC.swift */,
+				B8680BD520ED8C130040EC8C /* AppDelegate.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B8680C5620EDEAD20040EC8C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B8680BD920ED8C130040EC8C /* Main.storyboard */,
+				B8680BE120ED8C140040EC8C /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B8680C5720EDEB3F0040EC8C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B8680C5820EDEB580040EC8C /* ExpenseItem.swift */,
+				B8680C5A20EDEB650040EC8C /* MonthlyExpense.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +301,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8680BD820ED8C130040EC8C /* ViewController.swift in Sources */,
+				B8680C1020EDABF60040EC8C /* HistoryVC.swift in Sources */,
+				B8680BD820ED8C130040EC8C /* MainTabBarVC.swift in Sources */,
+				B8680C0A20EDAAE20040EC8C /* HomeVC.swift in Sources */,
+				B8680C5920EDEB580040EC8C /* ExpenseItem.swift in Sources */,
 				B8680BD620ED8C130040EC8C /* AppDelegate.swift in Sources */,
 				B8680BDE20ED8C130040EC8C /* Budget.xcdatamodeld in Sources */,
+				B8680C5B20EDEB650040EC8C /* MonthlyExpense.swift in Sources */,
+				B8680C0E20EDABD20040EC8C /* ResourcesVC.swift in Sources */,
+				B8680C0820EDA7E60040EC8C /* AddExpenseVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +482,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LTPP3D6J7U;
 				INFOPLIST_FILE = Budget/Info.plist;
@@ -443,6 +492,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Andy-Gandara.Budget";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,6 +502,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LTPP3D6J7U;
 				INFOPLIST_FILE = Budget/Info.plist;
@@ -461,6 +512,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Andy-Gandara.Budget";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

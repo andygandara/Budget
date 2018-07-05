@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainTabBarVC.swift
 //  Budget
 //
 //  Created by Andy Gandara on 7/4/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainTabBarVC: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
