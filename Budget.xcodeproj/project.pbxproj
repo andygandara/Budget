@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B820ACC920F1F2E3004E1D46 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = B820ACC820F1F2E3004E1D46 /* Video.swift */; };
+		B820ACCB20F1F367004E1D46 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B820ACCA20F1F367004E1D46 /* VideoModel.swift */; };
+		B820ACCF20F32A0E004E1D46 /* ResourcesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B820ACCE20F32A0E004E1D46 /* ResourcesVC.swift */; };
 		B8680BD620ED8C130040EC8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8680BD520ED8C130040EC8C /* AppDelegate.swift */; };
 		B8680BD820ED8C130040EC8C /* MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8680BD720ED8C130040EC8C /* MainTabBarVC.swift */; };
 		B8680BDB20ED8C130040EC8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8680BD920ED8C130040EC8C /* Main.storyboard */; };
@@ -17,10 +20,10 @@
 		B8680BF920ED8C140040EC8C /* BudgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8680BF820ED8C140040EC8C /* BudgetUITests.swift */; };
 		B8680C0820EDA7E60040EC8C /* AddExpenseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8680C0720EDA7E60040EC8C /* AddExpenseVC.swift */; };
 		B8680C0A20EDAAE20040EC8C /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8680C0920EDAAE20040EC8C /* HomeVC.swift */; };
-		B8680C0E20EDABD20040EC8C /* ResourcesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8680C0D20EDABD20040EC8C /* ResourcesVC.swift */; };
 		B8680C1020EDABF60040EC8C /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8680C0F20EDABF60040EC8C /* HistoryVC.swift */; };
 		B8680C5920EDEB580040EC8C /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8680C5820EDEB580040EC8C /* ExpenseItem.swift */; };
 		B8680C5B20EDEB650040EC8C /* MonthlyExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8680C5A20EDEB650040EC8C /* MonthlyExpense.swift */; };
+		B8FF2BFB20F46E8900CEDE92 /* DoneCancelToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FF2BFA20F46E8900CEDE92 /* DoneCancelToolbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B820ACC820F1F2E3004E1D46 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		B820ACCA20F1F367004E1D46 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		B820ACCE20F32A0E004E1D46 /* ResourcesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesVC.swift; sourceTree = "<group>"; };
 		B8680BD220ED8C130040EC8C /* Budget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Budget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8680BD520ED8C130040EC8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8680BD720ED8C130040EC8C /* MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
@@ -57,10 +63,10 @@
 		B8680BFA20ED8C140040EC8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8680C0720EDA7E60040EC8C /* AddExpenseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseVC.swift; sourceTree = "<group>"; };
 		B8680C0920EDAAE20040EC8C /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
-		B8680C0D20EDABD20040EC8C /* ResourcesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesVC.swift; sourceTree = "<group>"; };
 		B8680C0F20EDABF60040EC8C /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
 		B8680C5820EDEB580040EC8C /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 		B8680C5A20EDEB650040EC8C /* MonthlyExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyExpense.swift; sourceTree = "<group>"; };
+		B8FF2BFA20F46E8900CEDE92 /* DoneCancelToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneCancelToolbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,7 @@
 		B8680BD420ED8C130040EC8C /* Budget */ = {
 			isa = PBXGroup;
 			children = (
+				B89A27F0210C4A780071568A /* Extensions */,
 				B8680C5720EDEB3F0040EC8C /* Models */,
 				B8680C0620EDA7C10040EC8C /* Controllers */,
 				B8680C5620EDEAD20040EC8C /* Views */,
@@ -146,7 +153,7 @@
 				B8680C0720EDA7E60040EC8C /* AddExpenseVC.swift */,
 				B8680C0920EDAAE20040EC8C /* HomeVC.swift */,
 				B8680C0F20EDABF60040EC8C /* HistoryVC.swift */,
-				B8680C0D20EDABD20040EC8C /* ResourcesVC.swift */,
+				B820ACCE20F32A0E004E1D46 /* ResourcesVC.swift */,
 				B8680BD520ED8C130040EC8C /* AppDelegate.swift */,
 			);
 			path = Controllers;
@@ -166,8 +173,18 @@
 			children = (
 				B8680C5820EDEB580040EC8C /* ExpenseItem.swift */,
 				B8680C5A20EDEB650040EC8C /* MonthlyExpense.swift */,
+				B820ACC820F1F2E3004E1D46 /* Video.swift */,
+				B820ACCA20F1F367004E1D46 /* VideoModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		B89A27F0210C4A780071568A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B8FF2BFA20F46E8900CEDE92 /* DoneCancelToolbar.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,8 +324,11 @@
 				B8680C5920EDEB580040EC8C /* ExpenseItem.swift in Sources */,
 				B8680BD620ED8C130040EC8C /* AppDelegate.swift in Sources */,
 				B8680BDE20ED8C130040EC8C /* Budget.xcdatamodeld in Sources */,
+				B820ACCB20F1F367004E1D46 /* VideoModel.swift in Sources */,
+				B820ACCF20F32A0E004E1D46 /* ResourcesVC.swift in Sources */,
+				B820ACC920F1F2E3004E1D46 /* Video.swift in Sources */,
 				B8680C5B20EDEB650040EC8C /* MonthlyExpense.swift in Sources */,
-				B8680C0E20EDABD20040EC8C /* ResourcesVC.swift in Sources */,
+				B8FF2BFB20F46E8900CEDE92 /* DoneCancelToolbar.swift in Sources */,
 				B8680C0820EDA7E60040EC8C /* AddExpenseVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
